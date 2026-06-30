@@ -12,10 +12,10 @@ spring:
           lower-case-service-id: true   # 🔑 fuerza coincidencia con nombres en minúscula
       routes:
         # API Routes
-        - id: login-service
-          uri: lb://login
+        - id: review
+          uri: lb://review
           predicates:
-            - Path=/api/v1/users/**
+            - Path=/api/v1/reviews/**
           filters:
             - RewritePath=/api/v1/(?<segment>.*), /api/v1/${segment}
         - id: destination-service
