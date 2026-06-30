@@ -261,3 +261,25 @@ IE 2.5.2 Explica su aporte personal al proyecto, justificando commits, tareas as
 IE 3.1.2 Explica con claridad el funcionamiento de las pruebas unitarias generadas en el proyecto, justificando decisiones técnicas y relacionándolas con el dominio del microservicio, e integra nuevas pruebas unitarias en tiempo acotado, aplicando correctamente la lógica requerida y manteniendo la consistencia del proyecto. (ARCHIVO README EN EL PROYECTO)
 
 IE 3.2.2 Explica la documentación técnica generada con Swagger/OpenAPI, recorriendo rutas, respuestas, modelos y ejemplos, y demostrando consistencia entre la documentación y el comportamiento real del código. (ARCHIVO README EN EL PROYECTO)
+
+
+
+
+
+EXPLICACIONES TECNICAS REVIEW SERVICE
+
+INTEGRANTES:JAVIER FERNANDEZ - DIEGO LOBOS
+
+1- ¿COMO ESTRUCTURAMOS EL PROYECTO?
+R: PARA TENER UN ORDEN ORGANIZAMOS, CON EL PATRO DE USO DE CSR QUE ES CONTROLLER, SERVICE Y REPOSITORY LO HICIMOS DE ESTA FORMA PORQUE ES LAS MAS ESTRUCTURADA AL YGUAL QUE CON EL PROYECTO ANTERIOR EN CLASES EXPLICACION DE QUE FUNCION CUMPLE CADA UNO
+
+-CONTROLLER: RECIBE LAS PETICIONES DESDE EL API GATEWAY
+-SERVICE: AQUI NOSOTROS INTEGRAMOS TODA LA LOGICA PARA VALIDAR EL PROYECTO (VALIDAR DATOS)
+-REPOSITORY: ESTA ES LA CAPA LA CUAL HABLA CON NUESTRA BASE DE DATOS MYSQL WORKBENCH
+
+EN ALGUNOS ARCHIVOS ESCRIBIMOS EXPLICACIONES DE QUE HACE CADA LINEA EN EL CODIGO CON COMENTAIOS PARA UNA PEQUEÑA EXPLICACION Y SE ENTIENDA UN POCO MAS 
+
+
+
+2 ¿COMO SE CONECTA CON LOS OTROS MICROSERVICIOS?
+NUESTRO SERVICIO  
